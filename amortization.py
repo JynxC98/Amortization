@@ -45,7 +45,7 @@ class Amortization:
 
         return periodic_payments
 
-    def monthly_interest(self, remaining_amount) -> float:
+    def monthly_interest(self, remaining_amount: float) -> float:
         """
         Calculates the amount of montly interest.
         """
